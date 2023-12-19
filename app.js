@@ -71,3 +71,9 @@ const evenNumbers = Numbers.map((number)=>{
     return number *2 
 })
 console.log(evenNumbers)
+
+const fruits = ["banana","Apple","PinApple","Strawberry"];
+
+const filteredFruits = fruits.filter(fruit => fruit!== "Apple");
+
+console.log(filteredFruits)
